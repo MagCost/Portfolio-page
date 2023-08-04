@@ -1,0 +1,46 @@
+body {
+  background-color: #d7dbda;
+}
+
+.header {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#home-properties {
+  color: #ad4b02;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  color: #45505b;
+}
+
+.frontend {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 14%,
+    rgba(173, 75, 2, 1) 35%,
+    rgba(163, 178, 181, 1) 98%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #432910;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
