@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--first-color);
+  background-color: var(--first-color) !important;
 }
 
 .head {
