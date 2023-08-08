@@ -96,3 +96,42 @@ p {
 #portfolio {
   background: #6a64fb;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .head {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .scroll-text {
+    text-align: center;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+
+  .image-link {
+    border-radius: 4px;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .container {
+    text-align: center;
+  }
+}
