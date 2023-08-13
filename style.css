@@ -97,6 +97,11 @@ p {
   background: #6a64fb;
 }
 
+#about-head {
+  padding: 0px;
+  text-align: left;
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 25px;
