@@ -60,8 +60,8 @@
         <h1 class="about-title">
             About.me
         </h1>
-        <div class="row">
-            <div class="col-6 mt-5">
+        <div class="row" id="about-container">
+            <div class="col-6 mt-5" id="about-head">
                 <div class="head" id="about-head">
                     <h1>
                         I am <span class="highlight-text">Magda Costa</span>
@@ -71,12 +71,18 @@
                             <span class="frontend-text">Front-end developer</span>, based in Norway
                         </h4>
                     </div>
-                    <button type="button" class="btn btn-outline" id="button-about">My hobbies</button>
+                    <a href="about.html#hobbies-section">
+                    <button type="button" class="btn btn-outline" id="button-about">My hobbies</button></a>
                 </div>
             </div>
-            <div class="col-6 mt-5">
-                <p>
+            <div class="col-6">
+                <p class="about-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                    quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                    eos eveniet alias temporibus deserunt veritatis minima fugiat
+                    explicabo eum dolore.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
                     quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
                     eos eveniet alias temporibus deserunt veritatis minima fugiat
                     explicabo eum dolore.
@@ -84,42 +90,42 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col mt-5 d-none d-lg-block">
-            <img src="images/cooking.jpeg" class="img-fluid" alt="cooking" id="images-index" />
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="hobbies-section">
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cooking.jpeg" class="card-img-top img-fluid" alt="cooking" id="images-index">
+                <div class="card-body">
+                    <h5 class="card-title">My love for cooking</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.</p>
+                </div>
+            </div>
         </div>
-        <div class="col mt-5">
-            <h2>My love for cooking</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-                eos eveniet alias temporibus deserunt veritatis minima fugiat
-                explicabo eum dolore.
-            </p>
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/coding.jpg" class="card-img-top img-fluid" alt="coding" id="images-index">
+                <div class="card-body">
+                    <h5 class="card-title">My newly discovered passion for coding</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.</p>
+                </div>
+            </div>
         </div>
-        <div class="col mt-5 d-none d-lg-block">
-            <img src="images/coding.jpg" class="img-fluid" alt="coding" id="images-index" />
-        </div>
-        <div class="col mt-5">
-            <h2>My newly discovered passion for coding </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-                eos eveniet alias temporibus deserunt veritatis minima fugiat
-                explicabo eum dolore.
-            </p>
-        </div>
-        <div class="col mt-5 d-none d-lg-block">
-            <img src="images/gardening.jpg" class="img-fluid" alt="gardening" id="images-index" />
-        </div>
-        <div class="col mt-5">
-            <h2>🎍Gardening</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-                eos eveniet alias temporibus deserunt veritatis minima fugiat
-                explicabo eum dolore.
-            </p>
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/gardening.jpg" class="img-fluid rounded-start" alt="gardening">
+                <div class="card-body">
+                    <h5 class="card-title">🎍Gardening</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.</p>
+                </div>
+            </div>
         </div>
     </div>
     </br>

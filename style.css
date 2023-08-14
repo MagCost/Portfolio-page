@@ -125,6 +125,15 @@ p {
 
 .about-title {
   margin-top: 40px;
+  color: var(--secondary-color) !important;
+}
+
+#hobbies-section {
+  margin-top: 200px;
+}
+
+#about-container {
+  margin-top: 80px;
 }
 
 @media (max-width: 480px) {
