@@ -53,6 +53,7 @@ h2 {
   font-size: 30px;
   color: var(--third-color) !important;
   padding-top: 40px !important;
+  padding-bottom: 20px !important;
 }
 
 h3 {
@@ -76,6 +77,10 @@ p {
   line-height: 2;
   margin-top: 20px !important;
   padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .highlight-text {
@@ -140,6 +145,19 @@ p {
   margin-top: 215px;
 }
 
+.contact-button {
+  border-radius: 4px;
+  padding: 20px 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 15px;
+}
+
+#contact-container {
+  margin-top: 20px;
+  text-align: center;
+}
 @media (max-width: 480px) {
   h1 {
     font-size: 25px;
